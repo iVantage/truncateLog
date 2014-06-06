@@ -20,7 +20,7 @@ cp [temporary file] [path to log file]
 The temporary file can then be deleted. An example run is shown below:
 
 ```bash
-perl truncateLog.perl WebDebug.txt mm/dd/yyyy > WebDebug.swp
+perl truncateLog.perl WebDebug.txt 1/1/2014 > WebDebug.swp
 cp WebDebug.swp WebDebug.txt
 ```
 
